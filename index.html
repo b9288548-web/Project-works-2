@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maame Serwaa Waakye Joint</title>
+
+    <style>
+
+        /* GENERAL PAGE DESIGN */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            margin: 0;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 560px;
+            margin: auto;
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+        }
+
+        /* WEBSITE TITLE */
+
+        header {
+            text-align: center;
+            color: #236b35;
+            padding: 10px;
+        }
+
+        header h2 {
+            font-size: 21px;
+            margin: 5px;
+        }
+
+        /* NAVIGATION BAR */
+
+        nav {
+            background-color: #236b35;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+            margin-right: 12px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* SECTIONS */
+
+        section {
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            color: #a65e70;
+            font-size: 16px;
+        }
+
+        /* OUR STORY */
+
+        .story {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .story img {
+            width: 40%;
+            height: 180px;
+            object-fit: cover;
+            border: 2px solid #777;
+            border-radius: 5px;
+        }
+
+        .story-text {
+            background-color: #236b35;
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 12px;
+            width: 60%;
+        }
+
+        /* SPECIALS */
+
+        ul, ol {
+            font-size: 13px;
+            color: #555;
+            padding-left: 25px;
+        }
+
+        /* MENU TABLE */
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        th {
+            background-color: #236b35;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #cccccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eeeeee;
+        }
+
+        /* ADVERTISEMENT */
+
+        .advert img {
+            width: 65%;
+            height: 170px;
+            object-fit: cover;
+        }
+
+        video {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
+
+        /* ORDER FORM */
+
+        label {
+            font-size: 12px;
+            color: #555;
+        }
+
+        input, select, textarea {
+            display: block;
+            width: 60%;
+            padding: 7px;
+            margin-bottom: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            width: 85%;
+            height: 65px;
+        }
+
+        button {
+            background-color: #236b35;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #174c26;
+        }
+
+        /* FOOTER */
+
+        footer {
+            border-top: 1px solid #cccccc;
+            padding: 10px;
+            font-size: 11px;
+            color: #555;
+        }
+
+        /* MOBILE RESPONSIVENESS */
+
+        @media screen and (max-width: 480px) {
+
+            .story {
+                flex-direction: column;
+            }
+
+            .story img {
+                width: 100%;
+                height: 200px;
+            }
+
+            .story-text {
+                width: auto;
+            }
+
+            .advert img {
+                width: 100%;
+            }
+
+            input, select {
+                width: 100%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 4px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <!-- WEBSITE HEADER -->
+
+    <header>
+
+        <h2>Maame Serwaa Waakye Joint</h2>
+
+    </header>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <a href="#story">Our Story</a>
+
+        <a href="#specials">Our Menu</a>
+
+        <a href="#order">Place Your Order</a>
+
+    </nav>
+
+
+    <!-- OUR STORY -->
+
+    <section id="story">
+
+        <h3>Our Story</h3>
+
+        <div class="story">
+
+            <img src="images/media/waj.png" alt="A delicious plate of Waakye">
+
+            <div class="story-text">
+
+                <h4>MAAME SERWAA WAAKYE JOINT</h4>
+
+                <p>
+                    We offer delicious and freshly prepared
+                    Ghanaian meals to satisfy your cravings.
+                </p>
+
+                <p>
+                    Our meals are carefully prepared using
+                    quality ingredients and traditional recipes.
+                    Come and enjoy the best taste of Ghana!
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SPECIALS -->
+
+    <section id="specials">
+
+        <h3>Our Specials</h3>
+
+        <ul>
+
+            <li>Waakye</li>
+
+            <li>Jollof Rice</li>
+
+            <li>Banku with Tilapia</li>
+
+            <li>Kenkey with Fish</li>
+
+        </ul>
+
+
+        <h3>How to Order</h3>
+
+        <ol>
+
+            <li>Choose a dish.</li>
+
+            <li>Fill in your details.</li>
+
+            <li>Specify your preferred delivery option.</li>
+
+            <li>Click on Place Your Order.</li>
+
+        </ol>
+
+    </section>
+
+
+    <!-- MENU TABLE -->
+
+    <section>
+
+        <h3>Our Menu</h3>
+
+        <table>
+
+            <tr>
+
+                <th>No.</th>
+
+                <th>Dish</th>
+
+                <th>Price (GHC)</th>
+
+                <th>Portion</th>
+
+            </tr>
+
+
+            <tr>
+
+                <td>1</td>
+
+                <td>Waakye with meat and egg</td>
+
+                <td>25.00</td>
+
+                <td>Plate</td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>2</td>
+
+                <td>Jollof Rice with Chicken</td>
+
+                <td>40.00</td>
+
+                <td>Plate</td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>3</td>
+
+                <td>Banku with Tilapia</td>
+
+                <td>45.00</td>
+
+                <td>Plate</td>
+
+            </tr>
+
+
+            <tr>
+
+                <td>4</td>
+
+                <td>Sobolo</td>
+
+                <td>10.00</td>
+
+                <td>Cup</td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- ADVERTISEMENT -->
+
+    <section class="advert">
+
+        <h3>Watch Our Advert</h3>
+
+        
+
+        <br>
+
+        
+
+            <video  src="images/media/AUTHENTIC_GHANA_WAAKYE___WAAKYE_STEW_RECIPE(360p).mp4" type="video/mp4"
+            width="600"height="360" controls poster="images/media/IMG_20261113_105522_732 (1).jpg"
+             alt="Maame Serwaa Waakye advertisement">
+
+            
+
+        </video>
+
+    </section>
+
+
+    <!-- ORDER FORM -->
+
+    <section id="order">
+
+        <h3>Place Your Order</h3>
+
+        <form action="#" method="post">
+
+            <label>Full Name:</label>
+
+            <input type="text"
+                   name="fullname"
+                   placeholder="Enter your name"
+                   required>
+
+
+            <label>Phone Number:</label>
+
+            <input type="tel"
+                   name="phone"
+                   placeholder="Enter your phone number"
+                   required>
+
+
+            <label>Email:</label>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Enter your email">
+
+
+            <label>Dish Selection:</label>
+
+            <select name="dish" required>
+
+                <option value="">Choose a dish</option>
+
+                <option>Waakye</option>
+
+                <option>Jollof Rice with Chicken</option>
+
+                <option>Banku with Tilapia</option>
+
+                <option>Sobolo</option>
+
+            </select>
+
+
+            <label>Delivery Option:</label>
+
+            <select name="delivery">
+
+                <option>Pick Up</option>
+
+                <option>Home Delivery</option>
+
+            </select>
+
+
+            <label>Special Instructions:</label>
+
+            <textarea name="instructions"
+                      placeholder="Any additional requests?"></textarea>
+
+
+            <button type="submit">Place Order</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Maame Serwaa Waakye Joint.
+            All Rights Reserved.
+        </p>
+
+        <p>Location: Kumasi, Ghana</p>
+
+        <a href="#top">Visit Again</a>
+
+    </footer>
+
+
+</div>
+
+</body>
+
+</html
